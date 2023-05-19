@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('../images/dolists.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    width: 70vw;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+#logo{
+    height: 90px;
+    margin-left: 0.5px;
+    margin-top: 2px;
+}
+
+.navigation .btntodo-popup{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(rgb(174, 243, 174), rgb(192, 181, 181));
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    margin-right: 20px;
+    transition: all 0.1s ease;
+}
+
+.navigation .btntodo-popup:hover{
+    background: linear-gradient(rgb(173, 159, 159), black);
+    color: #fff;
+}
+
+.navigation .logout-btn{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(rgb(174, 243, 174), rgb(192, 181, 181));
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    transition: all 0.1s ease;
+}
+
+.navigation .logout-btn:hover{
+    background: linear-gradient(rgb(173, 159, 159), black);
+    color: #fff;
+}
+
+

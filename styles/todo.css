@@ -1,0 +1,26 @@
+.disabledList{
+    
+    pointer-events:none; 
+    opacity:0.6;        
+
+}
+
+#todoList{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 200px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    max-height: 450px;
+    overflow-y: scroll;
+    transform: scale(0);
+}
+
+#todoList.active-popup{
+    transform: scale(1);
+}
+
+
+
